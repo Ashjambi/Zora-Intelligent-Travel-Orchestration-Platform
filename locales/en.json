@@ -1,0 +1,724 @@
+
+{
+  "global": {
+    "from": "From",
+    "to": "To",
+    "travelers": "Travelers",
+    "traveler": "Traveler",
+    "travelersCount": "{count} Travelers",
+    "budget": "Budget",
+    "departureDate": "Departure Date",
+    "returnDate": "Return Date",
+    "comfortLevel": "Comfort Level",
+    "tripType": "Trip Type",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "price": "Price",
+    "details": "Details",
+    "cancellationPolicy": "Cancellation Policy",
+    "rating": "Rating",
+    "status": "Status",
+    "action": "Action",
+    "notes": "Notes",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "specialty": "Specialty",
+    "contactPerson": "Contact Person",
+    "joinDate": "Join Date",
+    "now": "Now",
+    "sinceMinutes": "Since {minutes} min",
+    "sinceHours": "Since {hours} hr",
+    "sinceDays": "Since {days} day",
+    "sar": "SAR",
+    "or": "OR",
+    "optional": "Optional",
+    "goTo": "Go to",
+    "locale": "en-US",
+    "invalidPrice": "Please enter a valid price",
+    "description": "Description",
+    "back": "Back",
+    "unknown": "Unknown"
+  },
+  "notifications": {
+    "bookingConfirmed": "Booking confirmed successfully!"
+  },
+  "services": {
+    "wantsAirportTransfer": "Airport Transfer",
+    "wantsCarRental": "Car Rental",
+    "wantsPrivateDriver": "Private Driver",
+    "wantsActivities": "Activities",
+    "wantsTravelInsurance": "Travel Insurance",
+    "wantsVisaProcessing": "Visa Processing",
+    "wantsDomesticTrips": "Domestic Trips",
+    "wantsCorporateTravel": "Corporate Travel",
+    "wantsVipServices": "VIP Services",
+    "wantsHoneymoonPackage": "Honeymoon Package",
+    "wantsDailyPrograms": "Daily Programs"
+  },
+  "dashboard": {
+    "totalRevenue": "Total Revenue",
+    "totalProfit": "Platform Net Profit",
+    "activeRequests": "Active Requests",
+    "pendingPayouts": "Pending Payouts",
+    "aiRadarTitle": "Zora Proactive AI Radar",
+    "liveUpdate": "Live Update",
+    "riskHigh": "High Risk",
+    "attentionRequired": "Attention Required",
+    "financialOverview": "Financial Overview",
+    "realizedRevenue": "Realized Revenue",
+    "platformProfit": "Platform Profit",
+    "governanceLog": "Governance & Operations Log",
+    "newRequestFrom": "New request from {client} to {to}",
+    "riskLowBudget": "Budget 20% below market average.",
+    "riskHighDemand": "High demand: Flight booking pressure currently."
+  },
+  "partnerPerformance": {
+    "title": "Partner Performance Analysis",
+    "topSellingPartner": "Top Selling Partner",
+    "totalSales": "Total Sales",
+    "confirmedBookings": "Confirmed Bookings",
+    "rating": "Rating",
+    "hours": "hr",
+    "table": {
+      "partner": "Partner",
+      "tier": "Tier",
+      "bookings": "Bookings",
+      "responseTime": "Avg Response",
+      "rating": "Rating",
+      "totalRevenue": "Total Revenue",
+      "totalPayouts": "Total Payouts"
+    }
+  },
+  "financialsDashboard": {
+    "title": "Financial Operations Center",
+    "totalRealizedProfit": "Realized Platform Profit",
+    "totalPartnerPayouts": "Total Partner Transfers",
+    "duePayouts": "Payouts Due",
+    "pendingClientPayments": "Pending Client Payments",
+    "failedTransactions": "Failed Transactions",
+    "totalTransactions": "Total Transactions",
+    "commissionSettings": "Commission Settings",
+    "commissionRate": "Platform Commission (%)",
+    "transactionHistory": "Transaction History",
+    "exportCSV": "Export CSV",
+    "initiatePayout": "Initiate Payout",
+    "processing": "Processing...",
+    "noTransactions": "No transactions recorded yet.",
+    "table": {
+      "requestId": "Request ID",
+      "partner": "Partner",
+      "client": "Client",
+      "amount": "Total Amount",
+      "platformProfit": "Profit",
+      "payoutAmount": "Net Partner",
+      "paymentStatus": "Status",
+      "action": "Action",
+      "clientTxDate": "Client Tx Date",
+      "partnerTxDate": "Partner Tx Date"
+    },
+    "status": {
+      "PendingClientPayment": "Pending Client",
+      "PaymentFailed": "Failed",
+      "DueforPayout": "Due",
+      "Processing": "Processing",
+      "PaymentReleased": "Released",
+      "Unknown": "Unknown"
+    }
+  },
+  "communicationsLog": {
+    "title": "Communications Log",
+    "noEmails": "No communications sent yet.",
+    "table": {
+      "recipient": "Recipient",
+      "email": "Email",
+      "subject": "Subject",
+      "sentAt": "Sent At"
+    },
+    "modal": {
+      "to": "To:",
+      "sentAt": "Sent At:",
+      "body": "Body:"
+    }
+  },
+  "partnerGateway": {
+    "title": "Zora™ Partner Portal",
+    "subtitle": "Offer & Operations Management",
+    "tabs": {
+      "activeTasks": "Active Tasks",
+      "allOffers": "All My Offers",
+      "featured": "Featured Offers ({count})",
+      "financials": "Financials"
+    },
+    "tasks": {
+      "revisionRequired": "Revisions Required",
+      "newRequests": "New Requests",
+      "noRequests": "No new requests",
+      "clickToCorrect": "Click to correct and resubmit",
+      "exclusiveRequest": "Exclusive Featured Request"
+    },
+    "requestDetails": {
+      "title": "Opportunity Details",
+      "aiTip": "Zora Strategy Tip:",
+      "analyzing": "Analyzing...",
+      "budget": "Estimated Budget",
+      "vision": "Client Vision",
+      "noDescription": "No description"
+    },
+    "offerStatus": {
+      "NeedsRevision": "Revision Required",
+      "Accepted": "Accepted",
+      "Selected": "Selected by Client",
+      "Rejected": "Rejected",
+      "UnderReview": "Under Review",
+      "PaymentFailed": "Payment Failed"
+    },
+    "featuredOffers": {
+      "createNew": "Create New Exclusive Package",
+      "noOffers": "You have not added any featured offers yet."
+    }
+  },
+  "admin": {
+    "searchPlaceholder": "Search client or destination...",
+    "selectRequest": "Select a request to view details.",
+    "selectTask": "Select an active task to begin.",
+    "activeTasks": "Active Tasks",
+    "requestDetailsTitle": "Opportunity Details",
+    "adminRevisionNoteTitle": "Coordinator Revision Note:",
+    "destinationLabel": "Destination",
+    "budgetLabel": "Budget",
+    "visionLabel": "Vision",
+    "noDescription": "No description",
+    "historyTitle": "Bids History ({count})",
+    "rejectedTag": "Rejected/Previous",
+    "updatedTag": "Updated",
+    "clientChat": "Client Chat",
+    "partnerChat": "Partner Chat",
+    "newMessage": "New Message",
+    "newOffers": "New Offers",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "requests": "Requests",
+      "partners": "Partners",
+      "partner_performance": "Performance",
+      "clients": "Clients",
+      "financials": "Financials",
+      "communications": "Comms"
+    },
+    "filters": {
+      "all": "All",
+      "new_request": "New",
+      "pending_bids": "Bids",
+      "offer_ready": "Pending Client",
+      "follow_up": "Follow-up",
+      "pending_payment": "Payment",
+      "confirmed": "Confirmed",
+      "payout_processing": "Payout",
+      "payment_released": "Released",
+      "groups": {
+        "active": "Active Tasks",
+        "financial": "Financial & Closing"
+      }
+    },
+    "requestListItem": {
+      "unknownClient": "Unknown Client"
+    }
+  },
+  "legal": {
+    "partner": {
+      "title": "Agency Governance & Operations Agreement",
+      "subtitle": "Unified Commitment Charter for Zora Agents (v2.1)",
+      "intro": "This agreement constitutes the binding legal framework between the Zora platform (First Party) and the travel agent (Second Party):",
+      "articles": [
+        {
+          "id": 1,
+          "title": "Article (1): Nature of Relationship & Agency",
+          "desc": "The relationship between the parties is that of an independent technical agency, where the Second Party acts as an authorized agent to provide services via the platform."
+        },
+        {
+          "id": 2,
+          "title": "Article (2): Accuracy of Financial Offers",
+          "desc": "The agent commits that prices provided in offers are final and inclusive of all declared taxes and fees."
+        },
+        {
+          "id": 3,
+          "title": "Article (3): International Quality Standards",
+          "desc": "The agent acknowledges providing services that comply with the standards of the American Society of Travel Advisors (ASTA) and the International Air Transport Association (IATA)."
+        },
+        {
+          "id": 4,
+          "title": "Article (4): Price Stability",
+          "desc": "Changing the offer price after client acceptance is prohibited, except in officially proven cases of force majeure."
+        },
+        {
+          "id": 5,
+          "title": "Article (5): Rapid Response Policy",
+          "desc": "The agent commits to responding to client inquiries and modification requests within a period not exceeding 4 business hours."
+        },
+        {
+          "id": 6,
+          "title": "Article (6): Prohibition of Financial Circumvention",
+          "desc": "Communicating with travelers outside the official platform channels to bypass system commissions is strictly forbidden. Proven violation will result in immediate suspension of the agent."
+        },
+        {
+          "id": 7,
+          "title": "Article (7): Traveler Data Protection",
+          "desc": "The agent is committed to maintaining the confidentiality of traveler data and not using it for any marketing purposes outside the scope of the current request."
+        },
+        {
+          "id": 8,
+          "title": "Article (8): Digital Content Ownership",
+          "desc": "All images, plans, and data generated via the platform are the intellectual property of Zora, and the agent is not permitted to reuse them."
+        },
+        {
+          "id": 9,
+          "title": "Article (9): Platform Commissions & Collection",
+          "desc": "The platform is entitled to a fixed commission, which is deducted from the total value before transferring the net dues to the agent's account."
+        },
+        {
+          "id": 10,
+          "title": "Article (10): Cancellation & Refund Policy",
+          "desc": "The agent must clearly state the cancellation policy in every offer and adhere to refunding amounts according to that policy."
+        },
+        {
+          "id": 11,
+          "title": "Article (11): Legal Liability",
+          "desc": "The agent bears full legal responsibility for the quality of field service execution and any compensation resulting from implementation failures."
+        },
+        {
+          "id": 12,
+          "title": "Article (12): Insurance Coverage",
+          "desc": "It is preferred that the agent holds professional liability insurance to cover any operational risks during travelers' trips."
+        },
+        {
+          "id": 13,
+          "title": "Article (13): Platform Updates",
+          "desc": "Zora reserves the right to update the platform's interfaces and tools as it deems appropriate to improve the experience, with notification to the agent of substantial changes."
+        },
+        {
+          "id": 14,
+          "title": "Article (14): Dispute Resolution",
+          "desc": "In case of a dispute between the agent and the traveler, Zora acts as a primary technical mediator. If reconciliation is not possible, the matter is referred to the competent judiciary."
+        },
+        {
+          "id": 15,
+          "title": "Article (15): Confidentiality of Business Operations",
+          "desc": "The agent commits not to disclose the working mechanism of the Zora smart radar or any strategic technologies reviewed during the agency."
+        },
+        {
+          "id": 16,
+          "title": "Article (16): Digital Signature & Reliability",
+          "desc": "The agent acknowledges that clicking the 'Agree' button constitutes a legally binding electronic signature according to the Electronic Transactions Law."
+        }
+      ],
+      "acceptCheckbox": "I agree to all 16 articles of the Agency Governance & Digital Operations Agreement",
+      "button": "Digitally Sign Agreement & Activate Agent Portal",
+      "footer": "This agreement is protected and documented by Zora's digital ledger."
+    },
+    "client": {
+      "title": "Traveler Terms of Use & Services",
+      "subtitle": "Traveler Rights Protection Charter (v2.1)",
+      "intro": "By using the Zora platform, you acknowledge your full and unconditional acceptance of the following terms:",
+      "articles": [
+        {
+          "id": 1,
+          "title": "First: Nature of Service",
+          "desc": "Zora is a technical orchestration platform. All final travel services are provided and executed by licensed, independent travel agents."
+        },
+        {
+          "id": 2,
+          "title": "Second: Finality of Decision",
+          "desc": "Once you select an offer and pay its value, your decision is final and binding. Funds are transferred to the agent according to platform policies."
+        },
+        {
+          "id": 3,
+          "title": "Third: Buyer Protection",
+          "desc": "Zora holds paid amounts in an Escrow account, and funds are not released to the agent until the trip's commencement is confirmed to protect your rights."
+        },
+        {
+          "id": 4,
+          "title": "Fourth: Limitation of Liability",
+          "desc": "Zora's liability is limited to technical coordination and securing financial rights. The quality of on-the-ground service execution is the responsibility of the chosen agent."
+        },
+        {
+          "id": 5,
+          "title": "Fifth: Privacy Policy",
+          "desc": "We are committed to protecting your personal data and sharing it only with agents competing for your request, in accordance with the Saudi Personal Data Protection Law."
+        },
+        {
+          "id": 6,
+          "title": "Sixth: Data Storage & Digital Governance Policy",
+          "desc": "You agree that legally binding data (such as your approvals and final prices) are stored in a secure central ledger with the platform to serve as a statutory reference in case of any dispute, while your daily operational data remains stored locally on your device to ensure privacy."
+        }
+      ],
+      "acceptCheckbox": "I agree to the terms of service and the approved traveler protection charter",
+      "button": "Activate Membership & Begin"
+    }
+  },
+  "enums": {
+    "comfortLevel": {
+      "Economy": "Economy",
+      "Comfort": "Comfort",
+      "Luxury": "Luxury"
+    },
+    "tripType": {
+      "OneWay": "One Way",
+      "RoundTrip": "Round Trip",
+      "MultiCity": "Multi-City"
+    },
+    "requestStatus": {
+      "new_request": "New",
+      "pending_bids": "Awaiting Partners",
+      "offer_ready": "Offers Ready",
+      "follow_up": "Follow-up",
+      "pending_payment": "Payment",
+      "confirmed": "In Progress",
+      "payout_processing": "Payout",
+      "payment_released": "Finished",
+      "completed": "Archived",
+      "analyzing": "AI Analysis",
+      "revision_requested": "Revision Required",
+      "payment_failed": "Payment Failed"
+    },
+    "performanceTier": {
+      "Standard": "Standard",
+      "Preferred": "Preferred",
+      "Elite": "Elite"
+    },
+    "loyaltyTier": {
+      "Bronze": "Bronze",
+      "Silver": "Silver",
+      "Gold": "Gold"
+    },
+    "partnerStatus": {
+      "Active": "Active",
+      "Inactive": "Inactive"
+    }
+  },
+  "offerForm": {
+    "title": "Offer & Execution Details",
+    "subtitle": "Building a complete travel experience",
+    "priceLabel": "Final Price (SAR)",
+    "detailsLabel": "Service Details",
+    "detailsPlaceholder": "Hotels, flights, services...",
+    "itineraryLabel": "Proposed Itinerary",
+    "addDay": "Add Day",
+    "dayLabel": "Day {day}",
+    "dayTitlePlaceholder": "Day Title (e.g. Museum Tour)",
+    "activityPlaceholder": "Activities description...",
+    "submitButton": "Submit Offer",
+    "confirmModalTitle": "Confirm Offer Details",
+    "confirmPriceLabel": "Client Price",
+    "confirmItineraryLabel": "Itinerary ({count} days)",
+    "back": "Back",
+    "confirmAndSend": "Confirm & Send"
+  },
+  "acknowledgeOffer": {
+    "tag": "Exclusive",
+    "title": "Acknowledge Featured Offer",
+    "subtitle": "Client selected your featured offer. Please confirm.",
+    "agreedPrice": "Agreed Price:",
+    "tripDescription": "Selected Vision:",
+    "button": "Confirm & Start Execution",
+    "justification": "Selected based on excellence.",
+    "category": "Premium Choice"
+  },
+  "clientAuth": {
+    "loginTitle": "Client Portal Login",
+    "loginSubtitle": "Access your travel requests and exclusive offers.",
+    "registerTitle": "Become a Zora Member",
+    "registerSubtitle": "Join our exclusive travel community.",
+    "loginButton": "Login",
+    "registerButton": "Proceed to Agreement",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already a member?",
+    "createAccountLink": "Create one now",
+    "loginLink": "Login here",
+    "userNotFound": "User not found. Please check your email or register.",
+    "emailExists": "This email is already registered. Please login.",
+    "demoTitle": "For Demonstration",
+    "demoSubtitle": "Log in with one of our demo accounts.",
+    "namePlaceholder": "Full Name",
+    "phonePlaceholder": "Phone Number",
+    "emailPlaceholder": "example@email.com",
+    "preferredDestinations": "Your Favorite Destinations (Optional)",
+    "preferredDestinationsPlaceholder": "e.g., London, Paris, Tokyo"
+  },
+  "clientGateway": {
+    "welcome": "Welcome,",
+    "subtitle": "This is your personal dashboard for orchestrating your next journey.",
+    "newRequest": "New Request",
+    "myRequests": "My Requests",
+    "noRequests": "You have no travel requests yet.",
+    "startJourney": "Start Your First Journey",
+    "logout": "Logout",
+    "portalTag": "Zora™ Elite Portal",
+    "premiumExperience": "Zora Premium Experience"
+  },
+  "header": {
+    "mainTitle": "Zora™ Travel Orchestration",
+    "clientPortal": "Client Portal",
+    "partnerPortal": "Agent Portal",
+    "adminPortal": "Control Panel",
+    "notifications": "Notifications",
+    "noNotifications": "No new notifications",
+    "changeGateway": "Change Gateway"
+  },
+  "gatewaySelector": {
+    "welcomeTitle": "Welcome to Zora™",
+    "welcomeSubtitle": "Choose your gateway to begin your smart travel orchestration journey.",
+    "clientTitle": "Traveler Gateway",
+    "clientDescription": "Design your trip, consult Zora, and get the best global offers.",
+    "partnerTitle": "Agent Gateway",
+    "partnerDescription": "For travel agents: submit your bids, manage operations, and expand globally.",
+    "adminTitle": "Control Center",
+    "adminDescription": "For admins: monitor operations, govern contracts, and manage financials."
+  },
+  "partnerLogin": {
+    "title": "Travel Agent Login",
+    "subtitle": "Enter your credentials to access your portal.",
+    "enterPortal": "Enter Portal",
+    "partnerIdLabel": "Agent ID",
+    "partnerIdPlaceholder": "e.g., P-1",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "invalidCredentials": "Invalid Agent ID or password, or account is inactive.",
+    "demoSubtitle": "Or, select an agency account for instant access (for demo):"
+  },
+  "requestStatus": {
+    "chatTitle": "Chat for trip to {destination}",
+    "requestId": "Request ID: {id}",
+    "consultationButton": "Consult Zora AI",
+    "chatButton": "Support Chat",
+    "comparisonTitle": "Your Offers are Ready for Comparison",
+    "priceLabel": "Total Price",
+    "comparePlansButton": "Compare Trip Plans",
+    "confirmSelectionButton": "Select This Offer",
+    "awaitingOffersTitle": "Our Experts are Orchestrating the Best Offers For You",
+    "awaitingOffersSubtitle": "Zora's smart system is sourcing competitive bids from specialized travel agencies. You will be notified as soon as they are ready.",
+    "commandCenterButton": "Open Trip Command Center",
+    "comparisonModalTitle": "Trip Plans Comparison",
+    "zoraVisionTitle": "Zora's Vision",
+    "zoraVisionSubtitle": "The Initial Strategic Blueprint",
+    "strategicPath": "Strategic Path",
+    "partnerPlanTitle": "{partnerName}'s Plan",
+    "partnerPlanSubtitle": "Proposed Realistic Execution",
+    "realisticPath": "Realistic Path",
+    "noItineraryFromPartner": "The travel agency has not provided a detailed itinerary.",
+    "closeComparisonButton": "Close Comparison",
+    "selectPartnerPlanButton": "Select This Plan",
+    "recommendedByZora": "Zora's Choice",
+    "generateAiPlanButton": "Get Zora Pro Plan"
+  },
+  "paymentModal": {
+    "title": "Secure Online Payment",
+    "processing": "Processing your payment securely...",
+    "verifying": "Bank Verification",
+    "verifyingDesc": "Please complete the verification step sent to your mobile.",
+    "successTitle": "Payment Successful!",
+    "successDesc": "Your trip is confirmed. Welcome to the journey.",
+    "totalAmount": "Total Amount",
+    "confirmPayment": "Confirm & Pay"
+  },
+  "requestForm": {
+    "inspirationTitle": "Zora Travel Inspirations",
+    "inspirationSubtitle": "Globally selected destinations based on current trends.",
+    "featuredOffersTitle": "Exclusive Ready-to-Execute Offers",
+    "featuredOffersSubtitle": "Pre-designed packages from our trusted partners at competitive prices.",
+    "aiTitle": "Design Your Journey via Zora AI",
+    "aiPlaceholder": "Describe your dream trip in your own words. For instance: 'I want a family trip to Tokyo for 10 days in spring with a medium budget, focusing on traditional places and amusement parks.'",
+    "analyzeButton": "Analyze My Vision with AI",
+    "strategicVisionTitle": "Zora's Strategic Vision for Your Trip",
+    "strategicVisionSubtitle": "An initial blueprint has been drafted. You can discuss and modify it with your Zora consultant.",
+    "valueScoreLabel": "Plan Quality Score",
+    "initialItineraryTitle": "Initial Itinerary Path",
+    "itineraryDay": "Day {day}",
+    "liveConsultant": "Live Zora Consultant",
+    "chatPlaceholder": "Ask for any modifications or inquiries...",
+    "logisticsTitle": "Journey Structure Details",
+    "logisticsSubtitle": "Define logistical options to ensure the most accurate offers",
+    "departureCityPlaceholder": "Departure City",
+    "destinationPlaceholder": "Target Destination",
+    "additionalServicesTitle": "Optional Ancillary Services",
+    "submitFinal": "Submit Final Request to Zora",
+    "governanceAgreement": "By clicking submit, you agree to Zora's Global Service Governance charter."
+  },
+  "tripCommandCenter": {
+    "pulseEngine": "Trip Pulse Engine",
+    "title": "Trip Command Center: {destination}",
+    "liveFeedTab": "Live Feed",
+    "itineraryTab": "Itinerary",
+    "supportTab": "Support",
+    "weatherForecast": "Instant Weather Forecast",
+    "weatherDescription": "Live updated data for {destination}",
+    "updateFeedButton": "Update Feed",
+    "lastUpdated": "Last updated: {time}",
+    "awaitingItinerary": "Awaiting final trip plan confirmation."
+  },
+  "tripFeed": {
+    "noUpdates": "No trip updates yet."
+  },
+  "clientList": {
+    "title": "Client Management ({count})",
+    "add": "Add New Client",
+    "noClients": "No clients have been registered yet.",
+    "phone": "Phone:",
+    "preferredDestinations": "Preferred Destinations:",
+    "joinedOn": "Joined on {date}",
+    "totalRequests": "Total Requests",
+    "totalSpent": "Total Spent",
+    "agreementSigned": "Agreement Signed",
+    "agreementPending": "Agreement Pending",
+    "analyzeActivity": "Analyze Activity",
+    "agreementArchiveTitle": "Client Digital Agreement Archive",
+    "agreementVersion": "Agreement Version",
+    "agreementActive": "Active",
+    "agreementDate": "Signature Date",
+    "closeArchive": "Close"
+  },
+  "clientForm": {
+    "addTitle": "Register New Client",
+    "editTitle": "Edit Client Details",
+    "clientName": "Client Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "preferredDestinations": "Preferred Destinations",
+    "preferredDestinationsPlaceholder": "e.g., Paris, Tokyo...",
+    "travelPreferences": "Travel Preferences",
+    "travelPreferencesPlaceholder": "e.g., Prefers window seats...",
+    "addClient": "Register Client"
+  },
+  "featuredOfferForm": {
+    "titleEdit": "Edit Featured Package",
+    "titleCreate": "Design New Featured Package",
+    "imageTooLarge": "Image is too large (max 2MB).",
+    "imageRequired": "An offer image is required.",
+    "sectionPrimary": "Primary Offer Details",
+    "offerTitle": "Offer Title",
+    "offerImage": "Offer Image",
+    "imagePreview": "Image Preview",
+    "changeImage": "Change Image",
+    "attachImage": "Attach Image",
+    "imageHint": "JPEG/PNG, max 2MB. Recommended: 800x600px.",
+    "offerDescription": "Offer Description",
+    "price": "Price (SAR)",
+    "tags": "Tags (comma-separated)",
+    "tagsPlaceholder": "e.g., Summer, Families, Luxury",
+    "sectionAutoRequest": "Auto-Request Parameters",
+    "autoRequestDescription": "Auto-Request Vision/Description",
+    "createOffer": "Create Offer"
+  },
+  "chat": {
+    "placeholder": "Type your message here...",
+    "send": "Send",
+    "senderAdmin": "Zora Coordinator"
+  },
+  "consultationChatModal": {
+    "title": "Zora Strategy Center",
+    "planEvaluation": "Plan Evaluation",
+    "itinerarySummary": "Itinerary Summary",
+    "chatPlaceholder": "Ask about any modifications or inquiries..."
+  },
+  "itinerary": {
+    "day": "Day {day}",
+    "generating": "Generating proposed itinerary..."
+  },
+  "partnerList": {
+    "title": "Partner Management ({count})",
+    "add": "Add New Partner",
+    "contact": "Contact:",
+    "email": "Email:",
+    "phone": "Phone:",
+    "joinDate": "Join Date:",
+    "performanceTier": "Tier:",
+    "agreementSigned": "Agreement Signed",
+    "agreementPending": "Pending Signature",
+    "viewProfile": "View Profile",
+    "agreementArchiveTitle": "Digital Agreement Archive",
+    "agreementVersion": "Agreement Version",
+    "agreementActive": "Active",
+    "closeArchive": "Close"
+  },
+  "partnerForm": {
+    "editTitle": "Edit Partner Details",
+    "addTitle": "Add New Partner",
+    "basicInfo": "Basic Information",
+    "partnerName": "Agency Name",
+    "contactPerson": "Contact Person",
+    "phone": "Phone",
+    "email": "Email",
+    "marketingProfile": "Marketing Profile",
+    "operationalClassification": "Operational Classification",
+    "bio": "Agency Bio",
+    "bioPlaceholder": "Describe the agency's expertise and specialty...",
+    "galleryUrls": "Gallery Image URLs (comma-separated)",
+    "galleryUrlsPlaceholder": "https://example.com/image1.jpg, ...",
+    "website": "Website",
+    "websitePlaceholder": "https://example.com",
+    "specialty": "Main Specialty",
+    "rating": "Rating (out of 5)",
+    "status": "Status",
+    "performanceTier": "Performance Tier",
+    "adminNotes": "Admin Notes",
+    "addPartner": "Add Partner"
+  },
+  "requestDetails": {
+    "receivedOffers": "Received Offers",
+    "noOffersYet": "Awaiting offers from partners.",
+    "noValidOffers": "There are no valid offers to analyze.",
+    "reroutingTitle": "Revision Request from Client",
+    "rejectionReasonText": "Rejection Reason",
+    "rejectionReasonDefault": "Client has rejected the submitted offers. The request will be re-sent to all partners for new bids.",
+    "rerouteButton": "Reroute Request to All Partners",
+    "newRequestInfo": "New request is pending dispatch to partners.",
+    "sendToPartnersButton": "Send to Partners",
+    "travelers": "Travelers",
+    "departure": "Departure",
+    "comfort": "Comfort",
+    "budget": "Budget",
+    "analyzeOffersTitle": "Ready for AI Analysis",
+    "analyzeOffersSubtitle": "{count} offers have been received. You can now run the Zora engine to select the top two and present them to the client.",
+    "runAIButton": "Run Zora Analysis",
+    "accounting": "Accounting & Settlements",
+    "totalPaidByClient": "Total Paid by Client",
+    "platformCommission": "Platform Commission ({rate}%)",
+    "amountDueToPartner": "Amount Due to {partnerName}",
+    "releasePayment": "Release Partner Payment",
+    "paymentReleased": "Payment has been successfully released."
+  },
+  "partnerFinancials": {
+    "title": "Partner Financials",
+    "totalTransferred": "Total Transferred",
+    "dueForPayout": "Due for Payout",
+    "completedTrips": "Completed Trips",
+    "transactionHistory": "Financial Transaction History",
+    "noTransactions": "No financial transactions recorded yet.",
+    "table": {
+      "trip": "Trip",
+      "offerPrice": "Offer Price",
+      "platformCommission": "Platform Commission",
+      "netPayout": "Net Payout",
+      "payoutStatus": "Payout Status",
+      "payoutDate": "Payout Date",
+      "transactionId": "Transaction ID"
+    },
+    "status": {
+      "DueforPayout": "Due for Payout",
+      "Processing": "Processing",
+      "PaymentReleased": "Released",
+      "Unknown": "Unknown"
+    }
+  },
+  "aiPlanModal": {
+    "title": "Zora's Exclusive Travel Guide",
+    "generating": "Zora is crafting your exclusive guide...",
+    "subtitle": "Drawing inspiration from global travel experts for your trip to {destination}.",
+    "exportPdf": "Export as PDF"
+  }
+}

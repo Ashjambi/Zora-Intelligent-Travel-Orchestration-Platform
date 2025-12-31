@@ -1,0 +1,803 @@
+
+{
+  "global": {
+    "from": "من",
+    "to": "إلى",
+    "travelers": "مسافرين",
+    "traveler": "مسافر",
+    "travelersCount": "{count} مسافرين",
+    "budget": "الميزانية",
+    "departureDate": "تاريخ المغادرة",
+    "returnDate": "تاريخ العودة",
+    "comfortLevel": "مستوى الراحة",
+    "tripType": "نوع الرحلة",
+    "sar": "ر.س",
+    "locale": "ar-SA",
+    "name": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الجوال",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "unknown": "غير معروف",
+    "price": "السعر",
+    "details": "التفاصيل",
+    "cancellationPolicy": "سياسة الإلغاء",
+    "rating": "التقييم",
+    "status": "الحالة",
+    "action": "إجراء",
+    "notes": "ملاحظات",
+    "specialty": "التخصص",
+    "contactPerson": "جهة الاتصال",
+    "joinDate": "تاريخ الانضمام",
+    "now": "الآن",
+    "sinceMinutes": "منذ {minutes} دقيقة",
+    "sinceHours": "منذ {hours} ساعة",
+    "sinceDays": "منذ {days} يوم",
+    "or": "أو",
+    "optional": "اختياري",
+    "goTo": "الانتقال إلى",
+    "invalidPrice": "الرجاء إدخال سعر صحيح",
+    "description": "الوصف",
+    "back": "رجوع",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد",
+    "close": "إغلاق",
+    "submit": "إرسال",
+    "loading": "جاري التحميل...",
+    "processing": "جاري المعالجة...",
+    "viewAgreement": "عرض الاتفاقية"
+  },
+  "header": {
+    "mainTitle": "زورا™",
+    "login": "دخول الحساب",
+    "logout": "تسجيل الخروج",
+    "clientPortal": "بوابة المسافر",
+    "partnerPortal": "بوابة الوكلاء",
+    "adminPortal": "لوحة التحكم",
+    "notifications": "التنبيهات",
+    "noNotifications": "لا توجد تنبيهات جديدة",
+    "changeGateway": "تغيير البوابة"
+  },
+  "footer": {
+    "solutions": "حلول زورا الذكية",
+    "trust": "الأمان والموثوقية",
+    "professionals": "للمحترفين والشركاء",
+    "joinAsAgent": "بوابة الوكلاء",
+    "adminAccess": "دخول الإدارة والتحكم",
+    "rights": "جميع الحقوق محفوظة © 2024 زورا الدولية لتنسيق السفر.",
+    "secure": "تشفير بنكي آمن",
+    "ai": "رادار ذكاء اصطناعي",
+    "gov": "حوكمة رقمية متكاملة"
+  },
+  "gatewaySelector": {
+    "welcomeTitle": "مرحباً بك في زورا™",
+    "welcomeSubtitle": "اختر بوابتك للبدء في رحلة تنسيق السفر الذكي.",
+    "clientTitle": "بوابة المسافر",
+    "clientDescription": "صمم رحلتك، استشر زورا، واحصل على أفضل العروض العالمية.",
+    "partnerTitle": "بوابة الوكلاء",
+    "partnerDescription": "لوكلاء السفر: قدم عروضك، أدر عملياتك، وتوسع عالمياً.",
+    "adminTitle": "مركز التحكم",
+    "adminDescription": "للإدارة: مراقبة العمليات، حوكمة العقود، وإدارة المالية."
+  },
+  "clientAuth": {
+    "gatewayTitle": "بوابة زورا™ الذكية",
+    "emailPrompt": "أدخل بريدك الإلكتروني للتحقق من عضويتك أو إنشاء حساب جديد.",
+    "emailPlaceholder": "name@example.com",
+    "continue": "متابعة",
+    "welcomeBack": "أهلاً بعودتك، {name}",
+    "secureLogin": "الدخول الآمن",
+    "registerTitle": "إكمال التسجيل",
+    "registerSubtitle": "أنت على بعد خطوة من الانضمام إلى نخبة مسافري زورا.",
+    "createAndContinue": "إنشاء الحساب والمتابعة",
+    "backButton": "العودة",
+    "userNotFound": "المستخدم غير موجود، يرجى التأكد من البيانات.",
+    "emailExists": "هذا البريد مسجل مسبقاً لدينا.",
+    "demoTitle": "وصول سريع (للتجربة)",
+    "demoSubtitle": "أو اختر حساباً للدخول الفوري:",
+    "invalidEmail": "الرجاء إدخال بريد إلكتروني صالح.",
+    "nameLabel": "الاسم الكامل",
+    "phoneLabel": "رقم الجوال",
+    "phonePlaceholder": "05xxxxxxxx",
+    "preferredDestinations": "الوجهات المفضلة (اختياري)",
+    "demoUser1": "أحمد المنصور",
+    "demoUser2": "سارة الشمري"
+  },
+  "clientGateway": {
+    "welcome": "أهلاً بك،",
+    "guestTitle": "صمم رحلة أحلامك",
+    "subtitle": "صمم رحلتك القادمة عبر رادار زورا الذكي واستلم أفضل العروض العالمية.",
+    "newRequest": "طلب رحلة جديدة",
+    "myRequests": "طلباتي الحالية",
+    "premiumExperience": "تجربة زورا الفاخرة",
+    "logout": "تسجيل الخروج الآمن",
+    "noRequests": "ليس لديك طلبات نشطة حالياً",
+    "startJourney": "ابدأ رحلتك الأولى"
+  },
+  "tripInspiration": {
+    "title": "رادار السفر العالمي",
+    "subtitle": "أكثر الوجهات طلباً عالمياً حسب تحليلات الاتجاهات الفورية."
+  },
+  "requestForm": {
+    "aiTitle": "صمم رحلتك عبر رادار زورا AI",
+    "aiPlaceholder": "صف رحلة أحلامك بكلماتك البسيطة.. مثلاً: أريد رحلة عائلية إلى اليابان لمدة 15 يوم بميزانية متوسطة.",
+    "analyzeButton": "تحليل الرؤية بالذكاء الاصطناعي",
+    "logisticsTitle": "تفاصيل هيكل الرحلة",
+    "logisticsSubtitle": "حدد الخيارات اللوجستية لضمان أدق العروض",
+    "additionalServicesTitle": "الخدمات التكميلية الاختيارية",
+    "departureCityPlaceholder": "مدينة المغادرة",
+    "destinationPlaceholder": "الوجهة المستهدفة",
+    "submitFinal": "إرسال الطلب لمركز التنسيق",
+    "governanceAgreement": "بالنقر على إرسال، أنت توافق على ميثاق حوكمة الخدمات الخاص بـ Zora.",
+    "featuredOffersTitle": "عروض حصرية جاهزة",
+    "featuredOffersSubtitle": "باقات وكلائنا الموثوقين",
+    "aiRadarLabel": "رادار زورا الذكي",
+    "inspirationTitle": "رادار السفر",
+    "inspirationSubtitle": "وجهات مختارة بناءً على التحليل الفوري.",
+    "valueScoreLabel": "مؤشر جودة الخطة",
+    "initialItineraryTitle": "المسار المبدئي",
+    "itineraryDay": "اليوم {day}",
+    "liveConsultant": "مستشار زورا المباشر",
+    "chatPlaceholder": "اطلب أي تعديلات أو استفسارات...",
+    "strategicVisionTitle": "الرؤية الاستراتيجية للرحلة"
+  },
+  "services": {
+    "wantsHotelBooking": "حجز فنادق",
+    "wantsAirportTransfer": "نقل مطار",
+    "wantsCarRental": "استئجار سيارة",
+    "wantsPrivateDriver": "سائق خاص",
+    "wantsActivities": "أنشطة سياحية",
+    "wantsTravelInsurance": "تأمين سفر",
+    "wantsVisaProcessing": "استخراج تأشيرة",
+    "wantsDomesticTrips": "رحلات داخلية",
+    "wantsCorporateTravel": "سفر شركات",
+    "wantsVipServices": "خدمات VIP",
+    "wantsHoneymoonPackage": "باقة شهر عسل",
+    "wantsDailyPrograms": "برنامج يومي",
+    "flight_aggregator": "مجمع رحلات",
+    "homestays": "سكن محلي",
+    "bike_rental": "تأجير دراجات"
+  },
+  "enums": {
+    "requestStatus": {
+      "new_request": "طلب جديد",
+      "pending_bids": "بانتظار الوكلاء",
+      "offer_ready": "عروض جاهزة",
+      "confirmed": "قيد التنفيذ",
+      "payment_released": "مكتمل مالياً",
+      "completed": "مؤرشف",
+      "analyzing": "تحليل ذكي",
+      "revision_requested": "تعديل مطلوب",
+      "pending_payment": "بانتظار الدفع",
+      "payment_failed": "فشل الدفع",
+      "follow_up": "متابعة",
+      "payout_processing": "معالجة الدفع"
+    },
+    "comfortLevel": {
+      "Economy": "اقتصادي",
+      "Comfort": "مريح",
+      "Luxury": "فاخر"
+    },
+    "tripType": {
+      "OneWay": "ذهاب فقط",
+      "RoundTrip": "ذهاب وعودة",
+      "MultiCity": "مدن متعددة"
+    },
+    "loyaltyTier": {
+      "Bronze": "عضو برونزي",
+      "Silver": "عضو فضي",
+      "Gold": "عضو ذهبي"
+    },
+    "partnerStatus": {
+      "Active": "نشط",
+      "Inactive": "غير نشط"
+    },
+    "performanceTier": {
+      "Standard": "قياسي",
+      "Preferred": "مفضل",
+      "Elite": "نخبة"
+    }
+  },
+  "partnerLogin": {
+    "title": "بوابة دخول الوكلاء",
+    "subtitle": "أدخل بياناتك للوصول إلى بوابتك.",
+    "enterPortal": "دخول البوابة",
+    "partnerIdLabel": "مُعرّف الوكيل",
+    "partnerIdPlaceholder": "مثال: P-1",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "invalidCredentials": "المُعرّف أو كلمة المرور غير صحيحة، أو الحساب غير نشط.",
+    "demoSubtitle": "أو اختر حساب وكالة للدخول الفوري (للتجربة):"
+  },
+  "partnerGateway": {
+    "title": "بوابة وكلاء زورا™",
+    "subtitle": "إدارة العروض والعمليات",
+    "tabs": {
+      "activeTasks": "المهام النشطة",
+      "allOffers": "كافة عروضي",
+      "featured": "العروض المميزة ({count})",
+      "financials": "التقارير المالية"
+    },
+    "tasks": {
+      "revisionRequired": "تعديلات مطلوبة",
+      "newRequests": "طلبات جديدة",
+      "noRequests": "لا توجد طلبات جديدة حالياً",
+      "clickToCorrect": "انقر للتصحيح وإعادة الإرسال",
+      "exclusiveRequest": "طلب حصري من عرض مميز"
+    },
+    "requestDetails": {
+      "title": "تفاصيل فرصة السفر",
+      "aiTip": "نصيحة زورا الاستراتيجية:",
+      "analyzing": "جاري تحليل الرؤية...",
+      "budget": "الميزانية المقدرة",
+      "vision": "رؤية العميل للرحلة",
+      "noDescription": "لا يوجد وصف محدد"
+    },
+    "offerStatus": {
+      "NeedsRevision": "بحاجة لتعديل",
+      "Accepted": "تم القبول",
+      "Selected": "مختار من العميل",
+      "Rejected": "مرفوض",
+      "UnderReview": "قيد المراجعة",
+      "PaymentFailed": "فشل الدفع"
+    },
+    "featuredOffers": {
+      "createNew": "إنشاء باقة حصرية جديدة",
+      "noOffers": "لم تقم بإضافة عروض مميزة بعد."
+    },
+    "notifications": {
+      "offerUpdated": "تم تحديث الباقة بنجاح.",
+      "offerCreated": "تم إنشاء الباقة الحصرية بنجاح.",
+      "confirmDelete": "هل أنت متأكد من رغبتك في حذف هذه الباقة؟",
+      "offerDeleted": "تم حذف الباقة."
+    }
+  },
+  "offerForm": {
+    "title": "تفاصيل العرض والتنفيذ",
+    "subtitle": "بناء تجربة سفر متكاملة",
+    "priceLabel": "السعر النهائي (ر.س)",
+    "detailsLabel": "تفاصيل الخدمة",
+    "detailsPlaceholder": "الفنادق، الطيران، الخدمات...",
+    "itineraryLabel": "المسار الزمني المقترح",
+    "addDay": "إضافة يوم",
+    "dayLabel": "اليوم {day}",
+    "dayTitlePlaceholder": "عنوان اليوم (مثال: جولة في المتحف)",
+    "activityPlaceholder": "وصف الأنشطة...",
+    "submitButton": "تقديم العرض",
+    "confirmModalTitle": "تأكيد تفاصيل العرض",
+    "confirmPriceLabel": "سعر العميل",
+    "confirmItineraryLabel": "المسار الزمني ({count} أيام)",
+    "back": "رجوع",
+    "confirmAndSend": "تأكيد وإرسال"
+  },
+  "acknowledgeOffer": {
+    "tag": "حصري",
+    "title": "تأكيد طلب العرض المميز",
+    "subtitle": "اختار العميل عرضك المميز. الرجاء تأكيد الحجز.",
+    "agreedPrice": "السعر المتفق عليه:",
+    "tripDescription": "الرؤية المختارة:",
+    "button": "تأكيد والبدء في التنفيذ",
+    "justification": "تم اختياره بناءً على التميز.",
+    "category": "خيار مميز"
+  },
+  "notifications": {
+    "bookingConfirmed": "تم تأكيد الحجز بنجاح!"
+  },
+  "partnerFinancials": {
+    "title": "التقارير المالية للوكيل",
+    "totalTransferred": "إجمالي المبالغ المحولة",
+    "dueForPayout": "المستحقات قيد التحويل",
+    "completedTrips": "الرحلات المكتملة",
+    "transactionHistory": "سجل المعاملات المالية",
+    "noTransactions": "لا توجد معاملات مالية مسجلة بعد.",
+    "table": {
+      "trip": "الرحلة",
+      "offerPrice": "سعر العرض",
+      "platformCommission": "عمولة المنصة",
+      "netPayout": "صافي المبلغ المستحق",
+      "payoutStatus": "حالة التحويل",
+      "payoutDate": "تاريخ التحويل",
+      "transactionId": "معرف العملية"
+    },
+    "status": {
+      "DueforPayout": "مستحقة للدفع",
+      "Processing": "قيد المعالجة",
+      "PaymentReleased": "تم التحويل",
+      "Unknown": "غير معروف"
+    }
+  },
+  "featuredOfferForm": {
+    "titleEdit": "تعديل الباقة المميزة",
+    "titleCreate": "تصميم باقة مميزة جديدة",
+    "imageTooLarge": "حجم الصورة كبير جداً (الحد الأقصى 2MB).",
+    "imageRequired": "صورة العرض مطلوبة.",
+    "sectionPrimary": "تفاصيل العرض الأساسية",
+    "offerTitle": "عنوان العرض",
+    "offerImage": "صورة العرض",
+    "imagePreview": "معاينة الصورة",
+    "changeImage": "تغيير الصورة",
+    "attachImage": "إرفاق صورة",
+    "imageHint": "JPEG/PNG, حد أقصى 2MB. الأبعاد الموصى بها: 800x600px.",
+    "offerDescription": "وصف العرض",
+    "price": "السعر (ر.س)",
+    "tags": "وسوم (مفصولة بفاصلة)",
+    "tagsPlaceholder": "مثال: صيف, عائلات, فاخر",
+    "sectionAutoRequest": "معايير الطلب التلقائي",
+    "autoRequestDescription": "رؤية/وصف الطلب التلقائي",
+    "createOffer": "إنشاء العرض"
+  },
+  "legal": {
+    "partner": {
+      "title": "اتفاقية الوكالة وحوكمة العمليات",
+      "subtitle": "ميثاق الالتزام الموحد لوكلاء زورا (v2.1)",
+      "intro": "تمثل هذه الاتفاقية الإطار القانوني الملحزم بين منصة زورا (الطرف الأول) ووكيل السفر (الطرف الثاني):",
+      "articles": [
+        {
+          "id": 1,
+          "title": "المادة (1): طبيعة العلاقة والوكالة",
+          "desc": "تُعد العلاقة بين الطرفين علاقة وكالة تقنية مستقلة، حيث يعمل الطرف الثاني كوكيل معتمد لتقديم الخدمات عبر المنصة."
+        },
+        {
+          "id": 2,
+          "title": "المادة (2): دقة العروض المالية",
+          "desc": "يلتزم الوكيل بأن تكون الأسعار المقدمة في العروض نهائية وشاملة لكافة الضرائب والرسوم المعلنة."
+        },
+        {
+          "id": 3,
+          "title": "المادة (3): معايير الجودة العالمية",
+          "desc": "يقر الوكيل بتقديم خدمات تتوافق مع معايير الجمعية الأمريكية لوكلاء السفر (ASTA) والمنظمة الدولية للنقل الجوي (IATA)."
+        },
+        {
+          "id": 4,
+          "title": "المادة (4): استقرار الأسعار",
+          "desc": "يُحظر تغيير سعر العرض بعد قبوله من قبل العميل إلا في حالات القوة القاهرة المثبتة رسمياً."
+        },
+        {
+          "id": 5,
+          "title": "المادة (5): سياسة الاستجابة السريعة",
+          "desc": "يلتزم الوكيل بالرد على استفسارات العملاء وطلبات التعديل في مدة لا تتجاوز 4 ساعات خلال أوقات العمل."
+        },
+        {
+          "id": 6,
+          "title": "المادة (6): حظر الالتفاف المالي",
+          "desc": "يُحظر تماماً التواصل مع المسافرين خارج قنوات المنصة الرسمية لتفادي عمولات النظام. ثبوت المخالفة يعرض الوكيل للإيقاف الفوري."
+        },
+        {
+          "id": 7,
+          "title": "المادة (7): حماية بيانات المسافرين",
+          "desc": "يلتزم الوكيل بالحفاظ على سرية بيانات المسافرين وعدم استخدامها لأي أغراض تسويقية خارج إطار الطلب الحالي."
+        },
+        {
+          "id": 8,
+          "title": "المادة (8): ملكية المحتوى الرقمي",
+          "desc": "كافة الصور والمخططات والبيانات التي يتم توليدها عبر المنصة هي ملكية فكرية لزورا ولا يحق للوكيل إعادة استخدامها."
+        },
+        {
+          "id": 9,
+          "title": "المادة (9): عمولات المنصة والتحصيل",
+          "desc": "تستحق المنصة عمولة ثابتة يتم خصمها من القيمة الإجمالية قبل تحويل المستحقات لصافي حساب الوكيل."
+        },
+        {
+          "id": 10,
+          "title": "المادة (10): سياسة الإلغاء والاسترداد",
+          "desc": "يجب على الوكيل توضيح سياسة الإلغاء بكل شفافية في كل عرض مقدم، والالتزام برد المبالغ وفقاً لتلك السياسة."
+        },
+        {
+          "id": 11,
+          "title": "المادة (11): المسؤولية القانونية",
+          "desc": "يتحمل الوكيل المسؤولية القانونية الكاملة عن جودة تنفيذ الخدمات الميدانية وأي تعويضات ناتجة عن القصور في التنفيذ."
+        },
+        {
+          "id": 12,
+          "title": "المادة (12): التغطية التأمينية",
+          "desc": "يُفضل أن يمتلك الوكيل تأميناً ضد المسؤولية المهنية لتغطية أي مخاطر تشغيلية خلال رحلات المسافرين."
+        },
+        {
+          "id": 13,
+          "title": "المادة (13): تحديثات المنصة",
+          "desc": "تحتفظ زورا بالحق في تحديث واجهات وأدوات المنصة بما تراه مناسباً لتطوير التجربة، مع إخطار الوكيل بالتغييرات الجوهرية."
+        },
+        {
+          "id": 14,
+          "title": "المادة (14): فض النزاعات",
+          "desc": "في حال حدوث نزاع بين الوكيل والمسافر، تعمل زورا كوسيط تقني أول، وفي حال تعذر الصلح يتم اللجوء للقضاء المختص."
+        },
+        {
+          "id": 15,
+          "title": "المادة (15): سرية العمليات التجارية",
+          "desc": "يلتزم الوكيل بعدم إفشاء آلية عمل رادار زورا الذكي أو أي تقنيات استراتيجية يتم الاطلاع عليها خلال الوكالة."
+        },
+        {
+          "id": 16,
+          "title": "المادة (16): التوقيع الرقمي والموثوقية",
+          "desc": "يُقر الوكيل بأن النقر على زر الموافقة يُعد توقيعاً إلكترونياً ملزماً قانونياً حسب نظام التعاملات الإلكترونية."
+        }
+      ],
+      "acceptCheckbox": "أوافق على كافة البنود الـ 16 لاتفاقية الوكالة وحوكمة العمليات الرقمية",
+      "button": "توقيع الاتفاقية رقمياً وتفعيل بوابة الوكيل",
+      "footer": "هذه الاتفاقية محمية وموثقة من خلال سجلات زورا الرقمية"
+    },
+    "client": {
+      "title": "اتفاقية استخدام وخدمات المسافر",
+      "subtitle": "ميثاق حماية حقوق المسافر (v2.1)",
+      "intro": "باستخدامك لمنصة زورا، فإنك تقر بقبولك الكامل وغير المشروط للبنود التالية:",
+      "articles": [
+        {
+          "id": 1,
+          "title": "أولاً: طبيعة الخدمة",
+          "desc": "زورا هي منصة تنسيق تقنية (Orchestrator). جميع الخدمات السياحية النهائية يتم تقديمها وتنفيذها بواسطة وكلاء سفر مرخصين ومستقلين."
+        },
+        {
+          "id": 2,
+          "title": "ثانياً: نهائية قرار الاختيار",
+          "desc": "بمجرد اختيارك لعرض ودفع قيمته، يعتبر قرارك نهائياً وملزماً، ويتم تحويل الأموال للوكيل وفقاً لسياسات المنصة."
+        },
+        {
+          "id": 3,
+          "title": "ثالثاً: حماية المشتري",
+          "desc": "تحتجز زورا المبالغ المدفوعة في حساب ضمان (Escrow) ولا يتم تحويلها للوكيل إلا بعد تأكيد بدء الرحلة لضمان حقوقك."
+        },
+        {
+          "id": 4,
+          "title": "رابعاً: حدود المسؤولية",
+          "desc": "مسؤولية زورا تنحصر في التنسيق التقني وضمان الحقوق المالية. جودة التنفيذ الميداني للخدمات هي مسؤولية الوكيل المختار."
+        },
+        {
+          "id": 5,
+          "title": "خامساً: سياسة الخصوصية",
+          "desc": "نتعهد بحماية بياناتك الشخصية وعدم مشاركتها إلا مع الوكلاء الذين يتنافسون على طلبك، وذلك وفقاً لنظام حماية البيانات الشخصية السعودي."
+        },
+        {
+          "id": 6,
+          "title": "سادساً: سياسة التخزين والحوكمة الرقمية",
+          "desc": "تقر بموافقتك على أن البيانات القانونية الملزمة (مثل موافقاتك والأسعار النهائية) يتم تخزينها في سجل مركزي آمن لدى المنصة لتكون مرجعاً نظامياً عند أي نزاع، بينما تبقى بياناتك التشغيلية اليومية مخزنة محلياً على جهازك لضمان الخصوصية."
+        }
+      ],
+      "acceptCheckbox": "أوافق على شروط الخدمة وميثاق حماية المسافر المعتمد",
+      "button": "تفعيل العضوية والبدء"
+    }
+  },
+  "dashboard": {
+    "totalRevenue": "إجمالي الإيرادات",
+    "totalProfit": "صافي ربح المنصة",
+    "activeRequests": "الطلبات النشطة",
+    "pendingPayouts": "المستحقات المعلقة",
+    "aiRadar": {
+        "title": "رادار زورا الاستراتيجي",
+        "liveUpdate": "تحديث مباشر",
+        "noAlerts": "العمليات تسير بشكل سليم.",
+        "goToRequest": "معاينة الطلب",
+        "severities": {
+            "High": "عالي الخطورة",
+            "Medium": "متوسط",
+            "Low": "منخفض"
+        }
+    },
+    "financialOverview": "نظرة مالية عامة",
+    "realizedRevenue": "الإيرادات المحققة",
+    "platformProfit": "ربح المنصة",
+    "governanceLog": "سجل الحوكمة والعمليات",
+    "newRequestFrom": "طلب جديد من {client} إلى {to}",
+    "liveUpdate": "تحديث فوري"
+  },
+  "partnerPerformance": {
+    "title": "تحليل أداء الشركاء",
+    "topSellingPartner": "الشريك الأكثر مبيعاً",
+    "totalSales": "إجمالي المبيعات",
+    "confirmedBookings": "حجوزات مؤكدة",
+    "rating": "التقييم العام",
+    "hours": "ساعة",
+    "table": {
+        "partner": "الشريك",
+        "tier": "الفئة",
+        "bookings": "الحجوزات",
+        "responseTime": "متوسط الاستجابة",
+        "rating": "التقييم",
+        "totalRevenue": "إجمالي الدخل",
+        "totalPayouts": "إجمالي المدفوعات"
+    }
+  },
+  "financialsDashboard": {
+    "title": "مركز العمليات المالية",
+    "outstandingDues": "مستحقات قيد الانتظار",
+    "totalCommissions": "إجمالي عمولات المنصة",
+    "totalPartnerPayouts": "إجمالي تحويلات الشركاء",
+    "pendingClientPayments": "مدفوعات العملاء المعلقة",
+    "failedTransactions": "عمليات فاشلة",
+    "totalTransactions": "إجمالي المعاملات",
+    "commissionSettings": "إعدادات العمولة",
+    "commissionRate": "نسبة عمولة المنصة (%)",
+    "note": "تطبق هذه النسبة تلقائياً على جميع الحجوزات القادمة.",
+    "transactionHistory": "سجل المعاملات الشامل",
+    "exportCSV": "تصدير CSV",
+    "initiatePayout": "بدء التحويل",
+    "noTransactions": "لا توجد سجلات مالية حتى الآن.",
+    "sections": {
+        "revenue": "الإيرادات والعمولات",
+        "payouts": "مدفوعات الوكلاء",
+        "operations": "المؤشرات التشغيلية"
+    },
+    "modalTitlePrefix": "تفاصيل:",
+    "totalLabel": "المجموع",
+    "table": {
+        "requestId": "رقم الطلب",
+        "partner": "الشريك",
+        "client": "العميل",
+        "amount": "المبلغ الإجمالي",
+        "platformProfit": "الربح",
+        "payoutAmount": "صافي الشريك",
+        "paymentStatus": "الحالة",
+        "action": "إجراء",
+        "clientTxDate": "تاريخ الدفع",
+        "partnerTxDate": "تاريخ التحويل"
+    },
+    "status": {
+        "PendingClientPayment": "بانتظار العميل",
+        "PaymentFailed": "فشل الدفع",
+        "DueforPayout": "مستحق الدفع",
+        "Processing": "قيد المعالجة",
+        "PaymentReleased": "تم التحويل",
+        "Unknown": "غير معروف"
+    }
+  },
+  "communicationsLog": {
+    "title": "سجل الاتصالات",
+    "noEmails": "لا توجد رسائل مسجلة.",
+    "successMessage": "تم تسليم الرسالة بنجاح عبر خوادم زورا™.",
+    "table": {
+        "recipient": "المستلم",
+        "email": "البريد الإلكتروني",
+        "subject": "الموضوع",
+        "sentAt": "تاريخ الإرسال"
+    },
+    "modal": {
+        "to": "إلى:",
+        "sentAt": "تاريخ الإرسال:",
+        "body": "نص الرسالة:"
+    }
+  },
+  "partnerProfile": {
+    "modalTitle": "ملف الوكيل: {name}",
+    "visitWebsite": "زيارة الموقع الإلكتروني",
+    "bioTitle": "نبذة عن الوكالة",
+    "galleryTitle": "معرض الصور"
+  },
+  "admin": {
+    "searchPlaceholder": "بحث باسم العميل، الوجهة، أو رقم الطلب...",
+    "selectRequest": "اختر طلباً لعرض التفاصيل.",
+    "selectTask": "اختر مهمة للبدء.",
+    "activeTasks": "المهام النشطة",
+    "requestDetailsTitle": "تفاصيل الفرصة",
+    "adminRevisionNoteTitle": "ملاحظة المنسق:",
+    "destinationLabel": "الوجهة",
+    "budgetLabel": "الميزانية",
+    "visionLabel": "الرؤية",
+    "noDescription": "لا يوجد وصف",
+    "historyTitle": "سجل العروض ({count})",
+    "rejectedTag": "مرفوض/سابق",
+    "updatedTag": "محدث",
+    "clientChat": "محادثة العميل",
+    "partnerChat": "محادثة الشريك",
+    "newMessage": "رسالة جديدة",
+    "newOffers": "عروض جديدة",
+    "tabs": {
+        "dashboard": "لوحة القيادة",
+        "requests": "الطلبات",
+        "partners": "الشركاء",
+        "partner_performance": "الأداء",
+        "clients": "العملاء",
+        "financials": "المالية",
+        "communications": "الاتصالات",
+        "governance": "الحوكمة"
+    },
+    "filters": {
+        "all": "الكل",
+        "new_request": "جديد",
+        "pending_bids": "مزاد",
+        "offer_ready": "جاهز",
+        "follow_up": "متابعة",
+        "pending_payment": "دفع",
+        "confirmed": "مؤكد",
+        "payout_processing": "تحويل",
+        "payment_released": "مكتمل",
+        "groups": {
+            "active": "مهام نشطة",
+            "financial": "مالية وإغلاق"
+        }
+    },
+    "requestListItem": {
+        "unknownClient": "عميل مجهول"
+    }
+  },
+  "partnerList": {
+    "title": "إدارة الشركاء ({count})",
+    "add": "إضافة شريك جديد",
+    "contact": "المسؤول:",
+    "email": "البريد:",
+    "phone": "الهاتف:",
+    "joinDate": "تاريخ الانضمام:",
+    "performanceTier": "الفئة:",
+    "agreementSigned": "تم توقيع الاتفاقية",
+    "agreementPending": "بانتظار التوقيع",
+    "viewProfile": "عرض الملف",
+    "agreementArchiveTitle": "أرشيف الاتفاقيات الرقمية",
+    "agreementVersion": "نسخة الاتفاقية",
+    "agreementActive": "نشطة",
+    "closeArchive": "إغلاق"
+  },
+  "partnerForm": {
+    "editTitle": "تعديل بيانات الشريك",
+    "addTitle": "إضافة شريك جديد",
+    "basicInfo": "المعلومات الأساسية",
+    "partnerName": "اسم الوكالة",
+    "contactPerson": "الشخص المسؤول",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "marketingProfile": "الملف التسويقي",
+    "operationalClassification": "التصنيف التشغيلي",
+    "bio": "نبذة عن الوكالة",
+    "bioPlaceholder": "وصف الخبرات والتخصص...",
+    "galleryUrls": "روابط صور المعرض (مفصولة بفاصلة)",
+    "galleryUrlsPlaceholder": "https://example.com/image1.jpg, ...",
+    "website": "الموقع الإلكتروني",
+    "websitePlaceholder": "https://example.com",
+    "specialty": "التخصص الرئيسي",
+    "rating": "التقييم (من 5)",
+    "status": "الحالة",
+    "performanceTier": "فئة الأداء",
+    "adminNotes": "ملاحظات إدارية",
+    "addPartner": "إضافة الشريك"
+  },
+  "clientList": {
+    "title": "إدارة العملاء ({count})",
+    "add": "إضافة عميل جديد",
+    "noClients": "لم يتم تسجيل أي عملاء بعد.",
+    "phone": "الهاتف:",
+    "preferredDestinations": "الوجهات المفضلة:",
+    "joinedOn": "انضم في {date}",
+    "totalRequests": "إجمالي الطلبات",
+    "totalSpent": "إجمالي الإنفاق",
+    "agreementSigned": "تم توقيع الاتفاقية",
+    "agreementPending": "بانتظار التوقيع",
+    "analyzeActivity": "تحليل النشاط",
+    "agreementArchiveTitle": "أرشيف اتفاقيات العميل الرقمية",
+    "agreementVersion": "نسخة الاتفاقية",
+    "agreementActive": "نشطة",
+    "agreementDate": "تاريخ التوقيع",
+    "closeArchive": "إغلاق"
+  },
+  "clientForm": {
+    "addTitle": "تسجيل عميل جديد",
+    "editTitle": "تعديل بيانات العميل",
+    "clientName": "اسم العميل",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "preferredDestinations": "الوجهات المفضلة",
+    "preferredDestinationsPlaceholder": "مثال: باريس، طوكيو...",
+    "travelPreferences": "تفضيلات السفر",
+    "travelPreferencesPlaceholder": "مثال: يفضل المقاعد بجانب النافذة...",
+    "addClient": "تسجيل العميل"
+  },
+  "chat": {
+    "placeholder": "اكتب رسالتك هنا...",
+    "send": "إرسال",
+    "senderAdmin": "منسق زورا"
+  },
+  "consultationChatModal": {
+    "title": "مركز زورا الاستراتيجي",
+    "planEvaluation": "تقييم الخطة",
+    "itinerarySummary": "ملخص المسار",
+    "chatPlaceholder": "اسأل عن أي تعديلات أو استفسارات..."
+  },
+  "itinerary": {
+    "day": "اليوم {day}",
+    "generating": "جاري إنشاء المسار المقترح..."
+  },
+  "requestDetails": {
+    "receivedOffers": "العروض المستلمة",
+    "noOffersYet": "بانتظار عروض الشركاء.",
+    "noValidOffers": "لا توجد عروض صالحة للتحليل.",
+    "reroutingTitle": "طلب تعديل من العميل",
+    "rejectionReasonText": "سبب الرفض",
+    "rejectionReasonDefault": "رفض العميل العروض المقدمة. سيتم إعادة توجيه الطلب لجميع الشركاء لتقديم عروض جديدة.",
+    "rerouteButton": "إعادة توجيه الطلب لجميع الشركاء",
+    "newRequestInfo": "طلب جديد بانتظار الإرسال للشركاء.",
+    "sendToPartnersButton": "إرسال للشركاء",
+    "travelers": "المسافرين",
+    "departure": "المغادرة",
+    "comfort": "الراحة",
+    "budget": "الميزانية",
+    "analyzeOffersTitle": "جاهز للتحليل الذكي",
+    "analyzeOffersSubtitle": "تم استلام {count} عروض. يمكنك الآن تشغيل محرك زورا لاختيار أفضل عرضين وتقديمهم للعميل.",
+    "runAIButton": "تشغيل تحليل زورا",
+    "accounting": "المحاسبة والتسويات",
+    "totalPaidByClient": "إجمالي ما دفعه العميل",
+    "platformCommission": "عمولة المنصة ({rate}%)",
+    "amountDueToPartner": "المبلغ المستحق لـ {partnerName}",
+    "releasePayment": "تحويل مستحقات الشريك",
+    "paymentReleased": "تم تحويل الدفعة بنجاح."
+  },
+  "paymentModal": {
+    "title": "بوابة الدفع الآمن",
+    "processing": "جاري معالجة الدفع بأمان...",
+    "verifying": "التحقق البنكي",
+    "verifyingDesc": "يرجى إكمال خطوة التحقق المرسلة لجوالك.",
+    "successTitle": "تم الدفع بنجاح!",
+    "successDesc": "تم تأكيد رحلتك. أهلاً بك في زورا.",
+    "totalAmount": "المبلغ الإجمالي",
+    "confirmPayment": "تأكيد ودفع",
+    "cardNumber": "رقم البطاقة",
+    "expiryDate": "تاريخ الانتهاء",
+    "cvc": "رمز التحقق",
+    "secureNote": "تشفير بنكي آمن 100%"
+  },
+  "requestStatus": {
+    "chatTitle": "محادثة الرحلة إلى {destination}",
+    "requestId": "رقم الطلب: {id}",
+    "consultationButton": "استشارة زورا AI",
+    "chatButton": "محادثة الدعم",
+    "comparisonTitle": "عروضك جاهزة للمقارنة",
+    "priceLabel": "السعر الإجمالي",
+    "comparePlansButton": "مقارنة خطط الرحلة",
+    "confirmSelectionButton": "اختيار هذا العرض",
+    "awaitingOffersTitle": "خبراؤنا ينسقون أفضل العروض لك",
+    "awaitingOffersSubtitle": "يقوم نظام زورا الذكي بجلب عروض تنافسية من وكالات سفر متخصصة. سيتم إشعارك فور جاهزيتها.",
+    "commandCenterButton": "فتح مركز قيادة الرحلة",
+    "comparisonModalTitle": "مقارنة خطط الرحلة",
+    "recommendedByZora": "خيار زورا المفضل",
+    "generateAiPlanButton": "الحصول على دليل زورا الاحترافي",
+    "realisticPath": "المسار التنفيذي المقترح",
+    "noItineraryFromPartner": "لم يقدم الوكيل جدولاً زمنياً مفصلاً.",
+    "selectPartnerPlanButton": "اعتماد هذه الخطة",
+    "closeComparisonButton": "إغلاق المقارنة"
+  },
+  "aiPlanModal": {
+    "title": "دليل زورا السياحي الحصري",
+    "generating": "يقوم زورا بصياغة دليلك الحصري...",
+    "subtitle": "استلهاماً من خبراء السفر العالميين لرحلتك إلى {destination}.",
+    "exportPdf": "تصدير كملف PDF"
+  },
+  "tripCommandCenter": {
+    "pulseEngine": "محرك النبض",
+    "title": "مركز قيادة الرحلة: {destination}",
+    "liveFeedTab": "التغذية الحية",
+    "itineraryTab": "المسار",
+    "supportTab": "الدعم",
+    "weatherForecast": "توقعات الطقس الفورية",
+    "weatherDescription": "بيانات محدثة لـ {destination}",
+    "updateFeedButton": "تحديث التغذية",
+    "lastUpdated": "آخر تحديث: {time}",
+    "awaitingItinerary": "بانتظار تأكيد خطة الرحلة النهائية."
+  },
+  "tripFeed": {
+    "noUpdates": "لا توجد تحديثات للرحلة بعد."
+  },
+  "legalLedger": {
+    "description": "سجل تدقيق آمن وغير قابل للتغيير لجميع الإجراءات الملزمة قانونًا داخل المنصة، مما يضمن الامتثال والشفافية.",
+    "noRecords": "لا توجد سجلات حوكمة.",
+    "details": "عرض التفاصيل",
+    "recordId": "رقم السجل",
+    "eventTypes": {
+        "CLIENT_AGREEMENT_SIGNED": "توقيع اتفاقية العميل",
+        "PARTNER_AGREEMENT_SIGNED": "توقيع اتفاقية الشريك",
+        "BOOKING_CONFIRMED_AND_PAID": "تأكيد الحجز والدفع",
+        "PAYOUT_RELEASED": "تم تحويل المستحقات للشريك"
+    }
+  },
+  "growthEngine": {
+    "title": "محرك النمو الذكي",
+    "analyzingTitle": "جاري تحليل فرص النمو",
+    "analyzingSubtitle": "يتم الآن معالجة بيانات الأداء وتوليد التوصيات الاستراتيجية...",
+    "errorTitle": "البيانات غير كافية للتحليل",
+    "recommendation": {
+      "supertitle": "توصية استراتيجية",
+      "action": "تطبيق التوصية"
+    },
+    "implementModal": {
+      "title": "خطة التنفيذ",
+      "description": "بناءً على التحليل، نوصي بالإجراء التالي لتحسين الأداء.",
+      "viewClients": "عرض العملاء المستهدفين",
+      "viewPartners": "توجيه الشركاء"
+    }
+  }
+}
