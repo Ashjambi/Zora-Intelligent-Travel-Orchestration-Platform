@@ -581,6 +581,30 @@ export const translations: any = {
         "cvc": "CVC",
         "secureNote": "100% Secure Encrypted Payment"
     },
+    "requestDetails": {
+        "receivedOffers": "Received Offers",
+        "noOffersYet": "Awaiting offers from partners.",
+        "noValidOffers": "There are no valid offers to analyze.",
+        "reroutingTitle": "Revision Request from Client",
+        "rejectionReasonText": "Rejection Reason",
+        "rejectionReasonDefault": "Client has rejected the submitted offers. The request will be re-sent to all partners for new bids.",
+        "rerouteButton": "Reroute Request to All Partners",
+        "newRequestInfo": "New request is pending dispatch to partners.",
+        "sendToPartnersButton": "Send to Partners",
+        "travelers": "Travelers",
+        "departure": "Departure",
+        "comfort": "Comfort",
+        "budget": "Budget",
+        "analyzeOffersTitle": "Ready for AI Analysis",
+        "analyzeOffersSubtitle": "{count} offers have been received. You can now run the Zora engine to select the top two and present them to the client.",
+        "runAIButton": "Run Zora Analysis",
+        "accounting": "Accounting & Settlements",
+        "totalPaidByClient": "Total Paid by Client",
+        "platformCommission": "Platform Commission ({rate}%)",
+        "amountDueToPartner": "Amount Due to {partnerName}",
+        "releasePayment": "Release Partner Payment",
+        "paymentReleased": "Payment has been successfully released."
+    },
     "legal": {
       "partner": {
         "title": "Agency Governance & Operations Agreement",
