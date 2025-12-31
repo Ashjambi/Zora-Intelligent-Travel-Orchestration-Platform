@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import { CheckCircleIcon, XCircleIcon, InfoIcon } from '../icons/Icons';
 import { useTranslation } from '../../context/LanguageContext';
@@ -32,7 +33,7 @@ const Notification: React.FC<NotificationProps> = ({ message, type, onClose }) =
 
   const Icon = isSuccess ? CheckCircleIcon : isError ? XCircleIcon : InfoIcon;
 
-  const baseClasses = 'fixed top-6 right-6 rtl:right-auto rtl:left-6 z-[100] flex items-center w-full max-w-sm p-4 space-x-4 rtl:space-x-reverse text-slate-100 bg-slate-900/90 backdrop-blur-md border border-slate-700 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all animate-fade-in-down';
+  const baseClasses = 'fixed top-6 right-6 rtl:right-auto rtl:left-6 z-[300] flex items-center w-full max-w-sm p-4 space-x-4 rtl:space-x-reverse text-slate-100 bg-slate-900/90 backdrop-blur-md border border-slate-700 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all animate-fade-in-down';
   
   return (
     <div className={baseClasses} role="alert">

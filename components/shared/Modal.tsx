@@ -22,7 +22,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children, size = 
 
   return (
     <div 
-      className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex justify-center items-center p-4"
+      className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[200] flex justify-center items-center p-4"
       aria-modal="true"
       role="dialog"
       onClick={onClose}

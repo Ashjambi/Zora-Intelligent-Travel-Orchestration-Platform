@@ -62,7 +62,7 @@
   "footer": {
     "solutions": "حلول زورا الذكية",
     "trust": "الأمان والموثوقية",
-    "professionals": "للمحترفين والشركاء",
+    "professionals": "للمحترفين والوكلاء",
     "joinAsAgent": "بوابة الوكلاء",
     "adminAccess": "دخول الإدارة والتحكم",
     "rights": "جميع الحقوق محفوظة © 2024 زورا الدولية لتنسيق السفر.",
@@ -481,14 +481,14 @@
     "liveUpdate": "تحديث فوري"
   },
   "partnerPerformance": {
-    "title": "تحليل أداء الشركاء",
-    "topSellingPartner": "الشريك الأكثر مبيعاً",
+    "title": "تحليل أداء الوكلاء",
+    "topSellingPartner": "الوكيل الأكثر مبيعاً",
     "totalSales": "إجمالي المبيعات",
     "confirmedBookings": "حجوزات مؤكدة",
     "rating": "التقييم العام",
     "hours": "ساعة",
     "table": {
-        "partner": "الشريك",
+        "partner": "الوكيل",
         "tier": "الفئة",
         "bookings": "الحجوزات",
         "responseTime": "متوسط الاستجابة",
@@ -501,7 +501,7 @@
     "title": "مركز العمليات المالية",
     "outstandingDues": "مستحقات قيد الانتظار",
     "totalCommissions": "إجمالي عمولات المنصة",
-    "totalPartnerPayouts": "إجمالي تحويلات الشركاء",
+    "totalPartnerPayouts": "إجمالي تحويلات الوكلاء",
     "pendingClientPayments": "مدفوعات العملاء المعلقة",
     "failedTransactions": "عمليات فاشلة",
     "totalTransactions": "إجمالي المعاملات",
@@ -521,11 +521,11 @@
     "totalLabel": "المجموع",
     "table": {
         "requestId": "رقم الطلب",
-        "partner": "الشريك",
+        "partner": "الوكيل",
         "client": "العميل",
         "amount": "المبلغ الإجمالي",
         "platformProfit": "الربح",
-        "payoutAmount": "صافي الشريك",
+        "payoutAmount": "صافي الوكيل",
         "paymentStatus": "الحالة",
         "action": "إجراء",
         "clientTxDate": "تاريخ الدفع",
@@ -577,13 +577,13 @@
     "rejectedTag": "مرفوض/سابق",
     "updatedTag": "محدث",
     "clientChat": "محادثة العميل",
-    "partnerChat": "محادثة الشريك",
+    "partnerChat": "محادثة الوكيل",
     "newMessage": "رسالة جديدة",
     "newOffers": "عروض جديدة",
     "tabs": {
         "dashboard": "لوحة القيادة",
         "requests": "الطلبات",
-        "partners": "الشركاء",
+        "partners": "الوكلاء",
         "partner_performance": "الأداء",
         "clients": "العملاء",
         "financials": "المالية",
@@ -610,8 +610,8 @@
     }
   },
   "partnerList": {
-    "title": "إدارة الشركاء ({count})",
-    "add": "إضافة شريك جديد",
+    "title": "إدارة الوكلاء ({count})",
+    "add": "إضافة وكيل جديد",
     "contact": "المسؤول:",
     "email": "البريد:",
     "phone": "الهاتف:",
@@ -626,8 +626,8 @@
     "closeArchive": "إغلاق"
   },
   "partnerForm": {
-    "editTitle": "تعديل بيانات الشريك",
-    "addTitle": "إضافة شريك جديد",
+    "editTitle": "تعديل بيانات الوكيل",
+    "addTitle": "إضافة وكيل جديد",
     "basicInfo": "المعلومات الأساسية",
     "partnerName": "اسم الوكالة",
     "contactPerson": "الشخص المسؤول",
@@ -646,7 +646,7 @@
     "status": "الحالة",
     "performanceTier": "فئة الأداء",
     "adminNotes": "ملاحظات إدارية",
-    "addPartner": "إضافة الشريك"
+    "addPartner": "إضافة الوكيل"
   },
   "clientList": {
     "title": "إدارة العملاء ({count})",
@@ -695,14 +695,14 @@
   },
   "requestDetails": {
     "receivedOffers": "العروض المستلمة",
-    "noOffersYet": "بانتظار عروض الشركاء.",
+    "noOffersYet": "بانتظار عروض الوكلاء.",
     "noValidOffers": "لا توجد عروض صالحة للتحليل.",
     "reroutingTitle": "طلب تعديل من العميل",
     "rejectionReasonText": "سبب الرفض",
-    "rejectionReasonDefault": "رفض العميل العروض المقدمة. سيتم إعادة توجيه الطلب لجميع الشركاء لتقديم عروض جديدة.",
-    "rerouteButton": "إعادة توجيه الطلب لجميع الشركاء",
-    "newRequestInfo": "طلب جديد بانتظار الإرسال للشركاء.",
-    "sendToPartnersButton": "إرسال للشركاء",
+    "rejectionReasonDefault": "رفض العميل العروض المقدمة. سيتم إعادة توجيه الطلب لجميع الوكلاء لتقديم عروض جديدة.",
+    "rerouteButton": "إعادة توجيه الطلب لجميع الوكلاء",
+    "newRequestInfo": "طلب جديد بانتظار الإرسال للوكلاء.",
+    "sendToPartnersButton": "إرسال للوكلاء",
     "travelers": "المسافرين",
     "departure": "المغادرة",
     "comfort": "الراحة",
@@ -714,7 +714,7 @@
     "totalPaidByClient": "إجمالي ما دفعه العميل",
     "platformCommission": "عمولة المنصة ({rate}%)",
     "amountDueToPartner": "المبلغ المستحق لـ {partnerName}",
-    "releasePayment": "تحويل مستحقات الشريك",
+    "releasePayment": "تحويل مستحقات الوكيل",
     "paymentReleased": "تم تحويل الدفعة بنجاح."
   },
   "paymentModal": {
@@ -779,9 +779,9 @@
     "recordId": "رقم السجل",
     "eventTypes": {
         "CLIENT_AGREEMENT_SIGNED": "توقيع اتفاقية العميل",
-        "PARTNER_AGREEMENT_SIGNED": "توقيع اتفاقية الشريك",
+        "PARTNER_AGREEMENT_SIGNED": "توقيع اتفاقية الوكيل",
         "BOOKING_CONFIRMED_AND_PAID": "تأكيد الحجز والدفع",
-        "PAYOUT_RELEASED": "تم تحويل المستحقات للشريك"
+        "PAYOUT_RELEASED": "تم تحويل المستحقات للوكيل"
     }
   },
   "growthEngine": {
@@ -797,7 +797,7 @@
       "title": "خطة التنفيذ",
       "description": "بناءً على التحليل، نوصي بالإجراء التالي لتحسين الأداء.",
       "viewClients": "عرض العملاء المستهدفين",
-      "viewPartners": "توجيه الشركاء"
+      "viewPartners": "توجيه الوكلاء"
     }
   }
 }

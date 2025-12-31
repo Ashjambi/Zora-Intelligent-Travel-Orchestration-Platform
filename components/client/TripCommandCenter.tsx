@@ -57,7 +57,7 @@ const TripCommandCenter: React.FC<TripCommandCenterProps> = ({ isOpen, onClose, 
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-black/90 backdrop-blur-xl z-50 flex justify-center items-center p-4" role="dialog" onClick={onClose}>
+        <div className="fixed inset-0 bg-black/90 backdrop-blur-xl z-[200] flex justify-center items-center p-4" role="dialog" onClick={onClose}>
           <div className="bg-slate-950 border border-slate-800 rounded-[2.5rem] shadow-2xl w-full max-w-4xl h-[90vh] flex flex-col overflow-hidden animate-fade-in-scale" onClick={e => e.stopPropagation()}>
             
             <div className="p-8 border-b border-slate-800/60 bg-gradient-to-b from-slate-900 to-slate-950">
