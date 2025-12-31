@@ -2,7 +2,19 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { TravelRequest, PartnerOffer, TripFeedItem, ComfortLevel, TripType, Partner, Client, PresentedOffer } from "../types";
 
-const isApiReady = () => process.env.API_KEY && process.env.API_KEY !== 'DEFAULT_API_KEY';
+// Safely access API key avoiding ReferenceError if process is not defined
+const getApiKey = () => {
+    try {
+        // @ts-ignore
+        return process.env.API_KEY;
+    } catch (e) {
+        console.warn("Environment variable access failed", e);
+        return undefined;
+    }
+};
+
+const API_KEY = getApiKey();
+const isApiReady = () => API_KEY && API_KEY !== 'DEFAULT_API_KEY';
 
 // Helper to get current language from localStorage for AI prompts
 const getUILang = () => {
@@ -48,7 +60,7 @@ export async function analyzeTravelPrompt(promptText: string): Promise<any | nul
         return new Promise(resolve => setTimeout(() => resolve(fallbackData), 800));
     }
 
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -76,7 +88,7 @@ export async function chatWithZoraExpert(message: string, history: any[]): Promi
     const lang = getUILang();
     if (!isApiReady()) return { text: lang === 'Arabic' ? "أنا زورا، مستشارك الذكي. كيف يمكنني مساعدتك؟" : "I am Zora, your strategic architect. How can I assist?", sources: [], nextSuggestions: [] };
 
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     const systemInstruction = `You are Zora Expert. Answer STRICTLY in ${lang}. 
     JSON Output: { "text": "string in ${lang}", "sources": [{"title": "string", "url": "string"}], "nextSuggestions": ["string in ${lang}"] }`;
 
@@ -94,7 +106,9 @@ export async function chatWithZoraExpert(message: string, history: any[]): Promi
 
 export async function getTrendingDestinations() {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return [];
+    
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -108,7 +122,9 @@ export async function getTrendingDestinations() {
 
 export async function generateAIItinerary(request: TravelRequest): Promise<string | null> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return null;
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-pro-preview",
@@ -122,7 +138,9 @@ export async function generateAIItinerary(request: TravelRequest): Promise<strin
 
 export async function generateAIRadarAlert(request: TravelRequest): Promise<TravelRequest['aiRadarAlert'] | null> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return null;
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -137,7 +155,9 @@ export async function generateAIRadarAlert(request: TravelRequest): Promise<Trav
 
 export async function getAIOfferAdvice(request: TravelRequest): Promise<string | null> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return null;
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -151,7 +171,9 @@ export async function getAIOfferAdvice(request: TravelRequest): Promise<string |
 
 export async function getAITopOfferSelection(request: TravelRequest, offers: PartnerOffer[]): Promise<PresentedOffer[] | null> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return null;
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -171,7 +193,9 @@ export async function getAITopOfferSelection(request: TravelRequest, offers: Par
 
 export async function getTripFeedUpdates(destination: string, date: string): Promise<TripFeedItem[]> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return [];
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-flash-preview",
@@ -186,7 +210,9 @@ export async function getTripFeedUpdates(destination: string, date: string): Pro
 
 export async function generateGrowthInsights(data: any): Promise<any | null> {
     const lang = getUILang();
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    if (!isApiReady()) return null;
+
+    const ai = new GoogleGenAI({ apiKey: API_KEY });
     try {
         const response = await ai.models.generateContent({
             model: "gemini-3-pro-preview",
