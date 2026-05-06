@@ -1,0 +1,21 @@
+$ vite build
+vite v6.4.2 building for production...
+transforming...
+✓ 3655 modules transformed.
+✗ Build failed in 6.52s
+error during build:
+[vite]: Rollup failed to resolve import "@/lib/utils" from "/home/user/src/components/AppSidebarShell.tsx".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at viteLog (file:///home/user/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:46399:15)
+    at file:///home/user/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:46457:18
+    at onwarn (file:///home/user/node_modules/@vitejs/plugin-react/dist/index.js:76:7)
+    at file:///home/user/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:46455:7
+    at onRollupLog (file:///home/user/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:46447:5)
+    at onLog (file:///home/user/node_modules/vite/dist/node/chunks/dep-Dq2t6Dq0.js:46097:7)
+    at file:///home/user/node_modules/rollup/dist/es/shared/node-entry.js:21383:32
+    at Object.logger [as onLog] (file:///home/user/node_modules/rollup/dist/es/shared/node-entry.js:23378:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/user/node_modules/rollup/dist/es/shared/node-entry.js:22122:26)
+    at file:///home/user/node_modules/rollup/dist/es/shared/node-entry.js:22080:26
+error: script "build" exited with code 1
