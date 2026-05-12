@@ -23,10 +23,12 @@ import {
   Megaphone,
   Landmark,
   ShieldCheck,
+  Bot,
   Settings,
   LogOut,
   PanelLeft,
 } from 'lucide-react'
+import { cn } from '../lib/utils'
 
 const SIDEBAR_KEY = 'sidebar_collapsed'
 
